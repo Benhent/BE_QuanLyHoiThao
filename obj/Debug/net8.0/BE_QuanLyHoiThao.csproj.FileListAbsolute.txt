@@ -1,0 +1,8 @@
+D:\learncode\PTUD\full-stack\BE_QuanLyHoiThao\obj\Debug\net8.0\BE_QuanLyHoiThao.csproj.AssemblyReference.cache
+D:\learncode\PTUD\full-stack\BE_QuanLyHoiThao\obj\Debug\net8.0\BE_QuanLyHoiThao.GeneratedMSBuildEditorConfig.editorconfig
+D:\learncode\PTUD\full-stack\BE_QuanLyHoiThao\obj\Debug\net8.0\BE_QuanLyHoiThao.AssemblyInfoInputs.cache
+D:\learncode\PTUD\full-stack\BE_QuanLyHoiThao\obj\Debug\net8.0\BE_QuanLyHoiThao.AssemblyInfo.cs
+D:\learncode\PTUD\full-stack\BE_QuanLyHoiThao\obj\Debug\net8.0\BE_QuanLyHoiThao.csproj.CoreCompileInputs.cache
+D:\learncode\PTUD\full-stack\BE_QuanLyHoiThao\obj\Debug\net8.0\BE_QuanLyHoiThao.MvcApplicationPartsAssemblyInfo.cs
+D:\learncode\PTUD\full-stack\BE_QuanLyHoiThao\obj\Debug\net8.0\BE_QuanLyHoiThao.MvcApplicationPartsAssemblyInfo.cache
+D:\learncode\PTUD\full-stack\BE_QuanLyHoiThao\obj\Debug\net8.0\BE_QuanLyHoiThao.sourcelink.json
