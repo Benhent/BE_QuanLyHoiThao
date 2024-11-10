@@ -18,7 +18,7 @@ public class UserController : ControllerBase
 
     [AllowAnonymous]
     [HttpPost(Name = "LOGIN")]
-    [Route("login")]
+    [Route("sign-in")]
     public async Task<IActionResult> UserCheckAuthentication()
     {
         try
@@ -72,7 +72,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPost]
-    [Route("register")]
+    [Route("sign-up")]
     public async Task<IActionResult> RegisterUser()
     {
         try
