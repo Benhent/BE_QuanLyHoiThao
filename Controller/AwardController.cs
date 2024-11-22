@@ -164,8 +164,8 @@ namespace BE_QuanLyHoiThao.Controllers
 
                         command.Parameters.AddWithValue("@Name", jsonObject["name"]?.ToString() ?? (object)DBNull.Value);
                         command.Parameters.AddWithValue("@Description", jsonObject["description"]?.ToString() ?? (object)DBNull.Value);
-                        command.Parameters.AddWithValue("@DateReceived", jsonObject["dateReceived"]?.ToObject<DateTime>() ?? (object)DBNull.Value);
-                        command.Parameters.AddWithValue("@AuthorID", jsonObject["authorId"]?.ToObject<int>() ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@DateReceived", jsonObject["date_received"]?.ToObject<DateTime>() ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@AuthorID", jsonObject["author_id"]?.ToObject<int>() ?? (object)DBNull.Value);
                     }
 
                     SqlDataAdapter da = new(command);
@@ -240,8 +240,8 @@ namespace BE_QuanLyHoiThao.Controllers
                         command.Parameters.AddWithValue("@AwardID", id);
                         command.Parameters.AddWithValue("@Name", jsonObject["name"]?.ToString() ?? (object)DBNull.Value);
                         command.Parameters.AddWithValue("@Description", jsonObject["description"]?.ToString() ?? (object)DBNull.Value);
-                        command.Parameters.AddWithValue("@DateReceived", jsonObject["dateReceived"]?.ToObject<DateTime>() ?? (object)DBNull.Value);
-                        command.Parameters.AddWithValue("@AuthorID", jsonObject["authorId"]?.ToObject<int>() ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@DateReceived", jsonObject["date_received"]?.ToObject<DateTime>() ?? (object)DBNull.Value);
+                        command.Parameters.AddWithValue("@AuthorID", jsonObject["author_id"]?.ToObject<int>() ?? (object)DBNull.Value);
                     }
 
                     SqlDataAdapter da = new(command);
